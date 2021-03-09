@@ -79,7 +79,8 @@ document.write('\
 		</li>\
 		<li><a href="events.html">Events</a>\
 			<ul>\
-				<li><a href="events.html" target="_blank">Upcoming Events</a></li>\
+				<li><a href="events.html">Upcoming Events</a></li>\
+				<li><a href="past-events.html">Past Events</a></li>\
 				<li><a href="eweek_overview.html">Engineers Week</a></li>\
 				<li><a href="https://e4k.berkeley.edu/" target="_blank">Engineering 4 Kids</a></li>\
 			</ul>\
