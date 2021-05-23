@@ -74,6 +74,7 @@ document.write('\
 						</ul>\
 				</li>\
 				<li><a href="treasurertrain.html">Treasurer Training</a></li>\
+				<li><a href="blueandgold.html">Blue and Gold</a></li>\
 \
 			</ul>\
 		</li>\
