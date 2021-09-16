@@ -1,4 +1,4 @@
-// custom code written by Niraj 
+// custom code written by Niraj
 
 document.write('\
 <header id="header">\
@@ -57,16 +57,10 @@ document.write('\
 			</ul>\
 		</li>\
 		<li>\
-			<a href="organizations-home.html">Organizations</a>\
+			<a href="blueandgold.html">Organizations</a>\
 			<ul>\
 \
-				<li><a href="#">Affiliation</a>\
-					<ul>\
-						<li><a href="clubs.html">Organizations</a></li>\
-						<li><a href="escaffiliation.html">Process</a></li>\
-						<li><a href="https://sites.google.com/berkeley.edu/esc-affiliation-portal/home">Portal</a></li>\
-						</ul>\
-				   </li>\
+				<li><a href="blueandgold.html">Blue and Gold</a></li>\
 				<li><a href="#">Finances</a>\
 						<ul>\
 							<li><a href="fin-decisions.html">Financial Decisions</a></li>\
@@ -74,7 +68,6 @@ document.write('\
 						</ul>\
 				</li>\
 				<li><a href="treasurertrain.html">Treasurer Training</a></li>\
-				<li><a href="blueandgold.html">Blue and Gold</a></li>\
 \
 			</ul>\
 		</li>\
@@ -106,4 +99,3 @@ document.write('\
 </nav>\
 </header>\
 ');
-	
