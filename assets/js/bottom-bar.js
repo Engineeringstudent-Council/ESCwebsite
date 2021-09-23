@@ -1,4 +1,4 @@
-// custom code written by Niraj 
+// custom code written by Niraj
 document.write('\
 <footer id="footer">\
 <div id="content-desktop">\
@@ -20,7 +20,7 @@ document.write('\
             <section class="col-3 col-6-medium col-12-xsmall" style="width:20%">\
                 <li style = "list-style:none;font-weight:bold;"> Frequently Visted Pages </li>\
                     <ul>\
-                        <li style = "list-style:none;"><a href="clubs.html" style="padding:0;"> Affiliated Organizations</a></li>\
+                        <li style = "list-style:none;"><a href="clubs.html" style="padding:0;"> Certified Organizations</a></li>\
                         <li style = "list-style:none;"><a href="applyfunding.html"> Apply for Funding</a></li>\
                         <li style = "list-style:none;"><a href="ficomm.html"> FiComm Decisions</a></li>\
                         <li style = "list-style:none;"><a href="treasurertrain.html"> Treasurer Trainings </a></li>\
@@ -30,7 +30,7 @@ document.write('\
                 <li style = "list-style:none;font-weight:bold;"> Portals </li>\
                     <ul>\
                         <li style = "list-style:none;"><a href="https://sites.google.com/berkeley.edu/escinternal/"> ESC Internal</a></li>\
-                        <li style = "list-style:none;"><a href="https://sites.google.com/berkeley.edu/esc-affiliation-portal/home" style="padding:0;"> Affiliated Organizations</a></li>\
+                        <li style = "list-style:none;"><a href="https://sites.google.com/berkeley.edu/blue-and-gold-portal/home" style="padding:0;"> Blue and Gold Certification</a></li>\
 \
                     </ul>\
             </section>\

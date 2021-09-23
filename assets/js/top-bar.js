@@ -57,16 +57,12 @@ document.write('\
 			</ul>\
 		</li>\
 		<li>\
-			<a href="blueandgold.html">Organizations</a>\
+			<a href="organizations-home.html">Organizations</a>\
 			<ul>\
 \
-				<li><a href="blueandgold.html">Blue and Gold</a></li>\
-				<li><a href="#">Finances</a>\
-						<ul>\
-							<li><a href="fin-decisions.html">Financial Decisions</a></li>\
-							<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIO7gJvwTFVTGjxhjmFIXUHuLfiXGGMtuvTYaDY6i5CSQJKA/viewform" target="_blank">Purchase Request Form </a></li> \
-						</ul>\
-				</li>\
+				<li><a href="clubs.html">List of Certified Organizations</a></li>\
+				<li><a href="blueandgold.html">Blue and Gold Launch Email</a></li>\
+				<li><a href="fin-decisions.html">Finances</a></li>\
 				<li><a href="treasurertrain.html">Treasurer Training</a></li>\
 \
 			</ul>\
