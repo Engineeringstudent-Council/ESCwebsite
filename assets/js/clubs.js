@@ -1,7 +1,7 @@
 function filterCategory(input) {
     // Change if categories change
-    var categories = ["Professional Societies", "Graduate Student Organizations","Competition Teams", "Project-based Teams", "Global Community Outreach",
-            "Wellness and Mental Health", "Design, Make, Hack", "Entrepreneurship", "Fraternities/Sororities", "Local Community Outreach", "Honor Societies" ];
+    var categories = ["Professional Societies", "College Community Based", "Competition Teams", "Design, Make, Hack", "Entrepreneurship/Consulting",
+            "Fraternities/Sororities", "Project-based Teams", "Community/Global Outreach", "Honor Societies" ];
 
     // Declare variables
     var filter, cat;
