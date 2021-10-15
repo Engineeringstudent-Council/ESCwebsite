@@ -22,7 +22,7 @@ document.write('\
                     <ul>\
                         <li style = "list-style:none;"><a href="clubs.html" style="padding:0;"> Certified Organizations</a></li>\
                         <li style = "list-style:none;"><a href="applyfunding.html"> Apply for Funding</a></li>\
-                        <li style = "list-style:none;"><a href="ficomm.html"> FiComm Decisions</a></li>\
+                        <li style = "list-style:none;"><a href="fin-decisions.html"> Finance Decisions</a></li>\
                         <li style = "list-style:none;"><a href="treasurertrain.html"> Treasurer Trainings </a></li>\
                         <li style = "list-style:none;"><a href="fmpi.html"> Free Menstrual Product Initiative </a></li>\
                         <li style = "list-style:none;"><a href="https://berkeley.us19.list-manage.com/subscribe?u=a43b64de9699d450384dc3d04&id=dd45839c09" target="_blank">Join Newsletter</a></li>\
