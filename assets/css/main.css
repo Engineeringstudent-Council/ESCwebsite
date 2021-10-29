@@ -5,8 +5,8 @@
 	Base Template from Landed by HTML5 UP html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-	This file has been heavily modified to be used as part of the ESC Website. Usage of photos and 
-	data requires approval from an executive of the ESC Board in good standing. 
+	This file has been heavily modified to be used as part of the ESC Website. Usage of photos and
+	data requires approval from an executive of the ESC Board in good standing.
 
 	Edited by: Niraj, Emme, and Joyce
 */
@@ -668,11 +668,11 @@ input, select, textarea {
 	.photo-grid {
 		display: grid;
 		gap: 1rem;
-	  
+
 		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 		grid-auto-rows: 240px;
 	  }
-	  
+
 
 /* Container */
 
@@ -787,7 +787,7 @@ input, select, textarea {
 		.row > .col-3 {
 			width: 25%;
 		}
-		
+
 		.row > .off-3 {
 			margin-left: 25%;
 		}
@@ -2537,20 +2537,20 @@ input, select, textarea {
 		box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em !important;
 		transform: translateY(-3px) scale(1.1) !important;
 	 }
-	 
+
 	.photo-grid {
 		display: grid;
 		gap: 1rem;
-	
+
 		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-		grid-auto-rows: 240px;		
+		grid-auto-rows: 240px;
 	}
 	  /* CUSTOM CODE FOR CARD PORTION// @media is messed up with max-width instead of min-width */
 	  @media screen and (min-width: 600px) {
 		.card-tall {
 		  grid-row: span 2 / auto;
 		}
-	  
+
 		.card-wide {
 		  grid-column: span 2 / auto;
 		}
@@ -2560,23 +2560,23 @@ input, select, textarea {
 		padding: 3em;
 		overflow-x: scroll;
 	  }
-	  
+
 	  .card-list::-webkit-scrollbar{
 		width: 10px;
 		height: 10px;
 	  }
 	  .card-list::-webkit-scrollbar-thumb{
-		
+
 		border-radius: 10px;
 		box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.2), inset -2px -2px 2px rgba(0,0,0,.2);
 	  }
 
 
-	  
+
 	  .card-horizontal{
 		height: 350px;
 		width: 400px;
-	  
+
 		min-width: 250px;
 		padding: 1.5rem;
 		border-radius: 16px;
@@ -2591,20 +2591,20 @@ input, select, textarea {
 		clear: both;
 		position: relative;
 	  }
-	  
+
 	  .card-horizontal:hover{
 		transform: translateY(-1rem);
-	  
+
 	  }
 	  .card-horizontal:hover~.card-horizontal{
 		transform: translateX(135px);
-	  
+
 	  }
-	  
+
 	  .card-horizontal:not(:first-child){
 		margin-left: -130px;
 	  }
-	  
+
 	  .card-horizontal-author{
 		position: relative;
 		display: grid;
@@ -2612,7 +2612,7 @@ input, select, textarea {
 		align-items: center;
 		margin: 3rem 0 0;
 	  }
-	  
+
 	  .author-avatar img{
 		width: 20%;
 
@@ -2620,7 +2620,7 @@ input, select, textarea {
 		overflow: hidden;
 		margin: 16px 10px;
 	  }
-	  
+
 	  .half-circle{
 		position: absolute;
 		bottom: 0;
@@ -2632,13 +2632,13 @@ input, select, textarea {
 		stroke-width: 8;
 		stroke-linecap: round;
 	  }
-	  
+
 	  .author-name-prefix{
 		font-style: normal;
 		font-weight: 700;
 		color: #7a7a8c;
 	  }
-	  
+
 	  .card-horizontal-header h2:hover {
 		  background: linear-gradient(90deg,#00b0da,#FBB03B);
 		  /* #ff8a00,#e52e71 */
@@ -2896,7 +2896,7 @@ input, select, textarea {
 			-ms-transform: translate(-50%, -50%);
 			text-align: left;
 		  }
-		  
+
 		  .containimg:hover .hovimg{
 			opacity: 0.1;
 		  }
@@ -4821,9 +4821,10 @@ input, select, textarea {
     overflow: hidden; /* Hides the Scroll */
     background: #FBB03B;
   }
-   
+
   .hmove { display: flex; }
-  
+
+  #hitem a:hover { color: #000066; }
   .hitem {
     flex-shrink: 0;
     color: #000066;
@@ -4832,7 +4833,7 @@ input, select, textarea {
     padding: 5px;
     text-align: center;
   }
-   
+
   @keyframes tickerh {
     0% { transform: translate3d(100%, 0, 0); } /* Starting Offset: Change to reflect changes to words in ticker*/
     100% { transform: translate3d(-150%, 0, 0); } /* Ending Offset: Change to reflect changes to words in ticker*/
