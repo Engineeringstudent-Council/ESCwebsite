@@ -128,6 +128,23 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+	/*BEGIN CHANGE */
+	a.banner {
+		-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		color: #000066;
+		text-decoration: underline dotted;
+	}
+
+		a.banner:hover {
+			color: #000066 !important;
+			border-bottom-color: transparent;
+		}
+
+	/*END CHANGE */
+
 	strong, b {
 		color: #000066;
 		font-weight: 300;
