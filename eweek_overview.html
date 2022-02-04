@@ -10,7 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/clubs.css" />		<link rel='icon' href='favicon.ico'/ >
+		<script src="assets/js/eweek.js"></script>
+		<link rel="stylesheet" href="assets/css/clubs.css" />		
+		<link rel='icon' href='favicon.ico'/ >
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script src="assets/js/top-bar.js"></script>
 	</head>
@@ -41,12 +43,13 @@
 						<br>
 						Keep scrolling for more information on the main events that you can look forward to! </p>
 						</div>
+
 						<div class="row gtr-150">
 							<div class="col-8 col-12-medium">
-							<section id='Pre-EWeek'>
-								<div class="row gtr-150">
+
+								<div class="row gtr-150 category">
 									<div class="col-6 col-12-medium">
-										<h3 style="font-weight: bold;">Learn more during Pre-EWeek!</h3>
+										<div class="title">Pre-EWeek</div>
 										<p>Want to know more about this year's “World Carnival at Berkeley” Engineer’s Week celebration? From 12-2pm on Monday, 
 											Wednesday, and Friday of the week before Engineer’s Week, the chairs of the Engineer’s Week planning committee will 
 											be outside Bechtel providing information and answering questions. Many different goodies will be handed out so make 
@@ -57,9 +60,10 @@
 									</div>
 								</div>
 
-								<div class="row gtr-150">
+
+								<div class="row gtr-150 category">
 									<div class="col-6 col-12-medium">
-										<h3 style = "font-weight: bold;"> Monday: Carnival Extravaganza </h3>
+										<div class="title">Monday: Carnival Extravaganza</div>
 										<!--<img src="images/eweek2022/pre_eweek.png" align="right" width="200" height="600"> -->
 											<p> It wouldn’t be the “World Carnival at Berkeley” Engineer’s Week if there was not a carnival at Berkeley. To kick off 
 												an exciting week, we will have a Carnival Extravaganza with several classic carnival games to play from 11am-6pm on 
@@ -71,9 +75,10 @@
 									</div>
 								</div>
 
-								<div class="row gtr-150">
+
+								<div class="row gtr-150 category">
 									<div class="col-6 col-12-medium">
-										<h3 style = "font-weight: bold;"> Tuesday: Design-Build Challenge </h3>
+										<div class="title">Tuesday: Design-Build Challenge</div>
 					<!--<img src="images/eweek2022/pre_eweek.png" align="right" width="200" height="600"> -->
 						<p> In the spirit of both engineering and difficult carnival games, we are putting together a Popsicle Bridge Shake Table 
 							challenge where students will build a bridge with popsicle sticks and hot glue. Once completed, the bridge will have 
@@ -85,9 +90,9 @@
 									</div>
 								</div>
 
-								<div class="row gtr-150">
+								<div class="row gtr-150 category">
 									<div class="col-6 col-12-medium">
-										<h3 style = "font-weight: bold;"> Wednesday: Top Dog </h3>
+										<div class="title">Wednesday: Top Dog</div>
 										<!--<img src="images/eweek2022/pre_eweek.png" align="right" width="200" height="600"> -->
 											<p> From the outset of freshman year, golden bears come to know Top Dog as a staple of the city and a necessity on late nights. 
 												On February 16th, at the Hearst Memorial Mining Circle, from 12-2pm delectable Top Dog hot dogs will be available for FREE. 
@@ -98,9 +103,10 @@
 									</div>
 								</div>
 
-								<div class="row gtr-150">
+
+								<div class="row gtr-150 category">
 									<div class="col-6 col-12-medium">
-										<h3 style = "font-weight: bold;"> Thursday: Movie Night </h3>
+										<div class="title">Thursday: Movie Night</div>
 					<!--<img src="images/eweek2022/pre_eweek.png" align="right" width="200" height="600"> -->
 						<p> Come unwind with the musical prowess of Hugh Jackman and the inspiring story of P.T. Barnum, the founder of the circus 
 							which is often a key component of Carnivals. The movie will be starting at 7:30pm in Hearst Memorial Mining 290 on 
@@ -111,9 +117,11 @@
 									</div>
 								</div>
 
-								<div class="row gtr-150">
+
+
+								<div class="row gtr-150 category">
 									<div class="col-6 col-12-medium">
-										<h3 style = "font-weight: bold;"> Friday: E-Ball </h3>
+										<div class="title">Friday: E-Ball</div>
 					<!--<img src="images/eweek2022/pre_eweek.png" align="right" width="200" height="600"> -->
 						<p> The most exciting part of Engineer’s Week is back in person and going full throttle! Come down to Moore Lobby in Hearst 
 							Memorial Mining Building at 7pm on February 18th to enjoy lively music, dancing, and participate in our series of blackjack 
@@ -121,7 +129,7 @@
 							options. To finish off EBall, we will be raffling off our End of EWeek prizes so don’t miss out!   </p>
 									</div>
 									<div class="col-6 col-12-medium">
-										<a href="#"><img src="images/eweek2022/movie_night.png" alt="E-Ball" width="400" /></a>
+										<a href="#"><img src="images/eweek2022/eball.mp4" alt="E-Ball" width="400" /></a>
 									</div>
 								</div>
 
@@ -134,22 +142,30 @@
 				</div>
 					</div>
 					
+					
 						</div>
-							<!-- Sidebar -->
-							<section id="sidebar">
-								<section>
-									<div id="search">
-										<div class="title" style="font-weight:bold;position:sticky;">Go to...</div>
-										<!-- Change in Categories should be changed in clubs.js in filterCategory function -->
-										<ul id="categoryUL">
-											<li><a href="#Pre-EWeek">Professional Societies</a></li>
+							
+						<div class="col-4">
+						<!-- Sidebar -->
+						<section id="sidebar">
+							<section>
+								<div id="search">
+									<div class="title" style="font-weight:bold;position:sticky;">Go to...</div>
+									<ul id="categoryUL">
+										<li onclick="filterCategory(0)">Pre-EWeek</li>
+										<li onclick="filterCategory(1)">Monday: Carnival Extravaganza</li>
+										<li onclick="filterCategory(2)">Tuesday: Design-Build Challenge</li>
+										<li onclick="filterCategory(3)">Wednesday: Top Dog</li>
+										<li onclick="filterCategory(4)">Thursday: Movie Night</li>
+										<li onclick="filterCategory(5)">Friday: E-Ball</li>
+										</ul>
+								</div>
 
-											</ul>
-									</div>
-
-							</section>
+						</section>	
+						</div>
 						
 							</div>
+							
 
 
 					<h3 style = "font-weight: bold;"> Photos from ESC's EWeek Archives </h3>
