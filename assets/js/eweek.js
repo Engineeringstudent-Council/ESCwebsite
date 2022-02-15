@@ -1,6 +1,6 @@
 function filterCategory(input) {
     // Change if categories change
-    var categories = ["Pre-EWeek", "Monday: Carnival Extravaganza", "Tuesday: Design-Build Challenge", "Wednesday: Top Dog", "Thursday: Movie Night", "Friday: E-Ball"];
+    var categories = ["Pre-EWeek", "Monday: Carnival Extravaganza", "Tuesday: Design-Build Challenge", "Wednesday: Top Dog", "Wednesday: Faculty Panel", "Thursday: Movie Night", "Friday: E-Ball"];
 
     // Declare variables
     var filter, cat;
