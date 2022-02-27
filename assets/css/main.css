@@ -4852,10 +4852,10 @@ input, select, textarea {
   }
 
   @keyframes tickerh {
-    0% { transform: translate3d(100%, 0, 0); } /* Starting Offset: Change to reflect changes to words in ticker*/
+    0% { transform: translate3d(65%, 0, 0); } /* Starting Offset: Change to reflect changes to words in ticker*/
     100% { transform: translate3d(-150%, 0, 0); } /* Ending Offset: Change to reflect changes to words in ticker*/
   }
-  .hmove { animation: tickerh linear 25s infinite; } /* Change to reflect changes to words in ticker*/
+  .hmove { animation: tickerh linear 40s infinite; } /* Change to reflect changes to words in ticker*/
   .hmove:hover { animation-play-state: paused; }
 
   /* Ticker Bar for Announcements END*/
