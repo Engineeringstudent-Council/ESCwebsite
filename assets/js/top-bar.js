@@ -1,4 +1,6 @@
 // custom code written by Niraj
+// Previous contact form:
+// <li><a href="https://form.typeform.com/to/UTcmX9lD" data-mode="popup">Contact Us </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></li>\
 
 document.write('\
 <header id="header">\
@@ -22,7 +24,6 @@ document.write('\
   </ul>\
 </li>\
 			  <li><a href="positive_messages.html">Positive Messages Campaign</a></li>\
-				<li><a href="https://form.typeform.com/to/UTcmX9lD" data-mode="popup">Contact Us </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></li>\
 				<li><a href="https://sites.google.com/berkeley.edu/escinternal/" target="_blank">ESC Internal</a></li>\
 \
 			</ul>\
@@ -79,6 +80,7 @@ document.write('\
 		</li>\
 		<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0oDhFKccVFXRQNobAbWzRAzk7GRLRipHd-TRSladZOSnpqg/viewform" target="_blank">Connect</a>\
 			<ul>\
+				<li><a href="https://forms.gle/7ycA5tAZuPQepzV16" target="_blank">Contact Us</a></li>\
 				<li><a href="#">Facebook Pages</a>\
 						<ul>\
 							<li><a href="https://www.facebook.com/eweekberkeley/" target="_blank">EWeek Facebook</a></li>\
