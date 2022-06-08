@@ -45,3 +45,8 @@ For Macs and Linux, open up Terminal. For Windows, please make sure that you hav
   * `Scp -r`: copies the content
   * `[ESC SERVER]:~/public_html`: content that is being copied
 * Type in password: `[ESC SERVER PASSWORD]`
+
+## Sources
+The following sources were used in supplying the content for this README file. 
+* https://esc.berkeley.edu
+* Tips and Tricks for Technical Director Document. 
