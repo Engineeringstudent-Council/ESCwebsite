@@ -63,7 +63,6 @@ document.write('\
 \
 				<li><a href="https://sites.google.com/berkeley.edu/blue-and-gold-portal/home">Blue and Gold Portal</a></li>\
 				<li><a href="clubs.html">List of Certified Organizations</a></li>\
-				<li><a href="blueandgold.html">Blue and Gold Launch Email</a></li>\
 				<li><a href="fin-decisions.html">Finances</a></li>\
 				<li><a href="treasurertrain.html">Treasurer Training</a></li>\
 \
