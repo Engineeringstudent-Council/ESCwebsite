@@ -1,0 +1,1 @@
+Scp committees.html ejc@ssh.ocf.berkeley.edu:~/public_html
