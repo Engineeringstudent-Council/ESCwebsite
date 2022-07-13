@@ -77,7 +77,7 @@ document.write('\
 			</ul>\
 \
 		</li>\
-		<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0oDhFKccVFXRQNobAbWzRAzk7GRLRipHd-TRSladZOSnpqg/viewform" target="_blank">Connect</a>\
+		<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdPfEPRk3_C-3yV6CdbIs9xKeJtISg1bGdQJ1v63iDWeryKFg/viewform" target="_blank">Connect</a>\
 			<ul>\
 				<li><a href="https://forms.gle/7ycA5tAZuPQepzV16" target="_blank">Contact Us</a></li>\
 				<li><a href="#">Facebook Pages</a>\
@@ -89,7 +89,7 @@ document.write('\
 				</li>\
 				<li><a href="https://www.instagram.com/berkeleyesc/?hl=en" target="_blank">Instagram</a></li>\
 				<li><a href="https://berkeley.us19.list-manage.com/subscribe?u=a43b64de9699d450384dc3d04&id=dd45839c09" target="_blank">Sign up for newsletter </a></li>\
-				<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0oDhFKccVFXRQNobAbWzRAzk7GRLRipHd-TRSladZOSnpqg/viewform" target="_blank">Join the team </a></li>\
+				<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdPfEPRk3_C-3yV6CdbIs9xKeJtISg1bGdQJ1v63iDWeryKFg/viewform" target="_blank">Join the team </a></li>\
 			</ul>\
 		</li>\
 		<li><a href="https://ophd.berkeley.edu/report" target="_blank" class="button primary">Report Sexual Harassment</a></li>\
